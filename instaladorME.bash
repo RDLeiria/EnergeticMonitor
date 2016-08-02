@@ -1,9 +1,12 @@
 #!/bin/bash
 #Instalador do Monitor Energetico - Trabalho de Conclusão de Curso - Ciência da Computação - UNIPAMPA - Campus rete
 #Feito por Raul Leiria (rdleiria@gmail.com)
-#tar -pcvzf ME.tar.gz ME
 #2016-04-02 - Criacao
 #2016-07-28 - Atualizacao
+
+##Comentarios pertinentes
+#tar -pcvzf ME.tar.gz ME
+#git add . && git commit -m "." && git push origin master
 
 #Constantes
 source ME/variablesME.inc
