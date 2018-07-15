@@ -1,14 +1,14 @@
 #!/bin/bash
-#Script a ser executado nos nodes. Na instalacao do ME esse script sera chamado remotamente pelo instalador em cada node
-#Feito por Raul Leiria (rdleiria@gmail.com)
-#2016-04-02 - Criacao
-#2016-08-02 - Atualizacao
+# Script a ser executado nos nodes. Na instalação do ME esse script será chamado remotamente pelo instalador em cada node
+# By Raul Leiria (rdleiria@gmail.com)
+# 2016-04-02 - Created
+# 2016-08-02 - Updated
 
-#Variaveis
+# Variables
 source /var/lib/one/ME/variablesME.inc
 
-#Agendamento do script
+# Script schedule
 CONTEUDO=`crontab -l`
 echo -e "$CONTEUDO\n* * * * * $MEDIRNFS/MEB.bash" | crontab -
 
-exit 0;
+exit 0
